@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Klick-Spiel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Klick mich!</h1>
+  <button onclick="klickZähler()">Klicks: <span id="count">0</span></button>
+
+  <script>
+    let anzahl = 0;
+    function klickZähler() {
+      anzahl++;
+      document.getElementById("count").textContent = anzahl;
+    }
+  </script>
+</body>
+</html>
