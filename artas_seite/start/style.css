@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    background:linear-gradient(135deg, #0070B4, #FF0000);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Title{
+    font-size: 400%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+}
+
+.makebuttoncenter {
+    text-align: center; 
+}
+
+.button{
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: white;
+    color: #0070B4;
+    border: none;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    animation: fadein 2.5s ease-out;
+}
+
+@keyframes fadein{
+    0% { transform: scale(0.5); opacity: 0;}
+    100% {transform: scale(1); opacity: 1;}
+}
+
+.swisscom-button {
+    display: inline-block;
+    max-width: 150px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.swisscom-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
